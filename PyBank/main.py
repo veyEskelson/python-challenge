@@ -1,7 +1,4 @@
-Created on Thu Dec  6 18:57:21 2018
 
-@author: mvesk
-"""
 #Dependencies
 import csv as csv
 import os as os
