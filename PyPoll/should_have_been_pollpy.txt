@@ -1,0 +1,8 @@
+#uh i needed to add a \n for the text to end up on the next line
+f = open("election_result.txt","w")   
+f.write("Khan: " + str(khan_WINNING_percent) + "% (" + str(Khan) + ")\n")
+f.write("Corry: " + str(correy_WINNING_percent) + "% (" + str(Correy) + ")\n")
+f.write("Li: " + str(Li_WINNING_percent) + "% (" + str(Li) + ")\n")
+f.write("O'Tooley " + str(OTooley_WINNING_percent) + "% (" + str(OTooley) + ")\n")
+f.close()			#closing file object
+
